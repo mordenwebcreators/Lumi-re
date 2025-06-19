@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Éclat | Luxury Jewelry</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500&display=swap">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    
+    <!-- Loading Animation -->
+    <div class="loader">
+        <div class="loader__ring"></div>
+        <div class="loader__text">Éclat Jewelry</div>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="#" class="nav__logo">Éclat<span>.</span></a>
+        
+        <div class="nav__links">
+            <a href="#" class="nav__link">Home</a>
+            <a href="#collections" class="nav__link">Collections</a>
+            <a href="#about" class="nav__link">About</a>
+            <a href="#showcase" class="nav__link">Shop</a>
+            <a href="#contact" class="nav__link">Contact</a>
+        </div>
+        
+        <div class="nav__cart">
+            <i class="fas fa-shopping-bag"></i>
+        </div>
+        
+        <div class="nav__hamburger">
+            <div class="nav__hamburger-line"></div>
+            <div class="nav__hamburger-line"></div>
+            <div class="nav__hamburger-line"></div>
+        </div>
+    </nav>
+    
+    <div class="nav__mobile">
+        <div class="nav__mobile-links">
+            <a href="#" class="nav__mobile-link">Home</a>
+            <a href="#collections" class="nav__mobile-link">Collections</a>
+            <a href="#about" class="nav__mobile-link">About</a>
+            <a href="#showcase" class="nav__mobile-link">Shop</a>
+            <a href="#contact" class="nav__mobile-link">Contact</a>
+        </div>
+    </div>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <video autoplay muted loop class="hero__video">
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-woman-wearing-gold-jewelry-3985-large.mp4" type="video/mp4">
+        </video>
+        <div class="hero__overlay"></div>
+        
+        <div class="hero__content">
+            <h5 class="hero__subtitle">Luxury Redefined</h5>
+            <h1 class="hero__title">Timeless Elegance <span>Perfected</span></h1>
+            <p class="hero__text">Discover our exclusive collection of handcrafted jewelry, where each piece tells a story of unparalleled craftsmanship and timeless beauty.</p>
+            <a href="#collections" class="hero__button">Explore Collections</a>
+            
+            <div class="hero__scroll">
+                <span class="hero__scroll-text">Scroll Down</span>
+                <div class="hero__scroll-icon"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Featured Collections -->
+    <section class="collections" id="collections">
+        <div class="collections__header">
+            <h5 class="collections__subtitle">Our Collections</h5>
+            <h2 class="collections__title">Masterpieces of Craftsmanship</h2>
+            <p class="collections__text">Each collection is a testament to our dedication to excellence, blending traditional techniques with contemporary design.</p>
+        </div>
+        
+        <div class="collections__grid">
+            <div class="collection-card">
+                <img src="https://i.pinimg.com/736x/2b/d6/33/2bd633b9fbf9e2d988b071e39e146c1b.jpg" alt="Engagement Rings" class="collection-card__image">
+                <div class="collection-card__overlay">
+                    <h3 class="collection-card__title">Engagement Rings</h3>
+                    <p class="collection-card__text">Symbols of eternal love, crafted to perfection</p>
+                    <a href="#" class="collection-card__button">View Collection <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <div class="collection-card">
+                <img src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Necklaces" class="collection-card__image">
+                <div class="collection-card__overlay">
+                    <h3 class="collection-card__title">Necklaces</h3>
+                    <p class="collection-card__text">Statement pieces that elevate every ensemble</p>
+                    <a href="#" class="collection-card__button">View Collection <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <div class="collection-card">
+                <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Watches" class="collection-card__image">
+                <div class="collection-card__overlay">
+                    <h3 class="collection-card__title">Watches</h3>
+                    <p class="collection-card__text">Precision timepieces with exquisite detailing</p>
+                    <a href="#" class="collection-card__button">View Collection <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about__bg"></div>
+        <div class="about__container">
+            <div class="about__content">
+                <h5 class="about__subtitle">Our Heritage</h5>
+                <h2 class="about__title">A Legacy of Excellence Since 1892</h2>
+                <p class="about__text">Founded in Paris by master jeweler Henri Dubois, Éclat has been creating extraordinary jewelry for over a century. Our pieces are worn by royalty, celebrities, and discerning clients who appreciate the finest things in life.</p>
+                <p class="about__text">Each Éclat creation begins with ethically sourced gemstones and precious metals, transformed by our artisans into wearable works of art. We maintain the highest standards of quality, ensuring every piece meets our exacting criteria.</p>
+                
+                <div class="about__stats">
+                    <div class="about__stat">
+                        <div class="about__stat-number">128</div>
+                        <div class="about__stat-text">Years of Excellence</div>
+                    </div>
+                    <div class="about__stat">
+                        <div class="about__stat-number">47</div>
+                        <div class="about__stat-text">Master Artisans</div>
+                    </div>
+                    <div class="about__stat">
+                        <div class="about__stat-number">12</div>
+                        <div class="about__stat-text">International Boutiques</div>
+                    </div>
+                    <div class="about__stat">
+                        <div class="about__stat-number">100%</div>
+                        <div class="about__stat-text">Ethically Sourced</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Product Showcase -->
+    <section class="showcase" id="showcase">
+        <div class="showcase__header">
+            <h5 class="showcase__subtitle">Featured Pieces</h5>
+            <h2 class="showcase__title">Exquisite Creations</h2>
+            <p class="showcase__text">Discover our curated selection of signature pieces, each representing the pinnacle of jewelry design and craftsmanship.</p>
+        </div>
+        
+        <div class="showcase__grid">
+            <div class="product-card">
+                <span class="product-card__badge">New</span>
+                <img src="https://i.pinimg.com/736x/2b/d6/33/2bd633b9fbf9e2d988b071e39e146c1b.jpg" alt="Diamond Solitaire Ring" class="product-card__image">
+                <div class="product-card__content">
+                    <span class="product-card__category">Engagement Rings</span>
+                    <h3 class="product-card__title">Éternité Solitaire</h3>
+                    <div class="product-card__price">$12,800 <span>$15,000</span></div>
+                    <button class="product-card__button">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Pearl Necklace" class="product-card__image">
+                <div class="product-card__content">
+                    <span class="product-card__category">Necklaces</span>
+                    <h3 class="product-card__title">Lumière Pearl</h3>
+                    <div class="product-card__price">$8,500</div>
+                    <button class="product-card__button">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <span class="product-card__badge">Best Seller</span>
+                <img src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Diamond Earrings" class="product-card__image">
+                <div class="product-card__content">
+                    <span class="product-card__category">Earrings</span>
+                    <h3 class="product-card__title">Éclat Diamond</h3>
+                    <div class="product-card__price">$6,200</div>
+                    <button class="product-card__button">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Gold Bracelet" class="product-card__image">
+                <div class="product-card__content">
+                    <span class="product-card__category">Bracelets</span>
+                    <h3 class="product-card__title">Serpentine Gold</h3>
+                    <div class="product-card__price">$9,750</div>
+                    <button class="product-card__button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="testimonials__header">
+            <h5 class="testimonials__subtitle">Client Testimonials</h5>
+            <h2 class="testimonials__title">Voices of Distinction</h2>
+            <p class="testimonials__text">Hear from our esteemed clients about their Éclat experiences.</p>
+        </div>
+        
+        <div class="testimonials__slider">
+            <div class="testimonial">
+                <div class="testimonial__rating">★★★★★</div>
+                <p class="testimonial__text">"The attention to detail in my engagement ring is breathtaking. Éclat understood exactly what I wanted and created a piece more beautiful than I could have imagined. The quality is exceptional and the service impeccable."</p>
+                <div class="testimonial__author">
+                    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Sophia Laurent" class="testimonial__author-image">
+                    <div class="testimonial__author-info">
+                        <div class="testimonial__author-name">Sophia Laurent</div>
+                        <div class="testimonial__author-role">Paris, France</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact/Location -->
+    <section class="contact" id="contact">
+        <div class="contact__container">
+            <div class="contact__info">
+                <h5 class="contact__subtitle">Visit Us</h5>
+                <h2 class="contact__title">Experience Éclat</h2>
+                <p class="contact__text">Our flagship boutiques offer a personalized shopping experience where our experts will guide you through our collections and help you find the perfect piece.</p>
+                
+                <div class="contact__details">
+                    <div class="contact__detail">
+                        <div class="contact__detail-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact__detail-text">18 Rue de la Paix, 75002 Paris</div>
+                    </div>
+                    <div class="contact__detail">
+                        <div class="contact__detail-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact__detail-text">+33 1 42 60 42 60</div>
+                    </div>
+                    <div class="contact__detail">
+                        <div class="contact__detail-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact__detail-text">contact@eclat.com</div>
+                    </div>
+                </div>
+                
+                <div class="contact__socials">
+                    <a href="#" class="contact__social">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="contact__social">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="contact__social">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="contact__social">
+                        <i class="fab fa-pinterest-p"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="contact__form">
+                <h3 class="contact__title" style="margin-bottom: 2rem;">Get in Touch</h3>
+                <form>
+                    <div class="contact__form-group">
+                        <label for="name" class="contact__form-label">Name</label>
+                        <input type="text" id="name" class="contact__form-input" placeholder="Your Name">
+                    </div>
+                    <div class="contact__form-group">
+                        <label for="email" class="contact__form-label">Email</label>
+                        <input type="email" id="email" class="contact__form-input" placeholder="Your Email">
+                    </div>
+                    <div class="contact__form-group">
+                        <label for="subject" class="contact__form-label">Subject</label>
+                        <input type="text" id="subject" class="contact__form-input" placeholder="Subject">
+                    </div>
+                    <div class="contact__form-group">
+                        <label for="message" class="contact__form-label">Message</label>
+                        <textarea id="message" class="contact__form-textarea" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="contact__form-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__col">
+                <div class="footer__logo">Éclat<span>.</span></div>
+                <p class="footer__text">Creating timeless jewelry since 1892. Each piece tells a story of craftsmanship, luxury, and enduring beauty.</p>
+            </div>
+            
+            <div class="footer__col">
+                <h3 class="footer__title">Quick Links</h3>
+                <div class="footer__links">
+                    <a href="#" class="footer__link">Home</a>
+                    <a href="#collections" class="footer__link">Collections</a>
+                    <a href="#about" class="footer__link">About Us</a>
+                    <a href="#showcase" class="footer__link">Shop</a>
+                    <a href="#contact" class="footer__link">Contact</a>
+                </div>
+            </div>
+            
+            <div class="footer__col">
+                <h3 class="footer__title">Customer Service</h3>
+                <div class="footer__links">
+                    <a href="#" class="footer__link">Shipping & Returns</a>
+                    <a href="#" class="footer__link">Store Policy</a>
+                    <a href="#" class="footer__link">Payment Methods</a>
+                    <a href="#" class="footer__link">FAQ</a>
+                </div>
+            </div>
+            
+            <div class="footer__col">
+                <h3 class="footer__title">Newsletter</h3>
+                <p class="footer__text">Subscribe to receive updates, access to exclusive deals, and more.</p>
+                <form class="footer__newsletter-form">
+                    <input type="email" placeholder="Your Email" class="footer__newsletter-input">
+                    <button type="submit" class="footer__newsletter-button">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer__bottom">
+            <p class="footer__copyright">© 2023 Éclat Jewelry. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
